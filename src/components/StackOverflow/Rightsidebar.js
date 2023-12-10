@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './css/Rightsidebar.css';
 
 function Rightsidebar() {
     return (
@@ -65,102 +66,7 @@ function Rightsidebar() {
                         </Link>
 
                     </li>
-                    <li>
-                        <div className="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            What's a good way to assert in embedded microcontroller code?
-                        </Link>
-
-                    </li>
-                    <li>
-                        <div className="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Was Russell right in saying that skepticism is psychologically impossible?
-                        </Link>
-
-                    </li>
-                    <li>
-                        <div className="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Did a blown fuse in my multimeter damage my multimeter?
-                        </Link>
-
-                    </li>
-                    <li>
-                        <div className="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Do the suffixes -ic and -ous have the same meaning?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:73 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Tandem breaker compatible?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-latin" title="Latin Language Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:644 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Did gendered nouns originate in Latin?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-codegolf" title="Code Golf Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Order by Earliest Lower Digit
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            What can I call actions that seem to motivate employees to give gifts to a senior?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-latin" title="Latin Language Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:644 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Is Latin qui a descendant or predecessor of Persian &#1705;&#1607; (k&euml;)?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Simple low power linear regulator for wide input voltage
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-politics" title="Politics Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:475 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Was the U.S. surprised about the Huawei breakthrough, how much time did the government or think-tanks expect China to take to produce a 7nm chip?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Why didn't Sauron make his hand whole?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-travel" title="Travel Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:273 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            In which cities can one perform remote (e.g., in-town) airport check-in?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:648 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Why does the Manchester Baby have two jump instructions?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-physics" title="Physics Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:151 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            How do you know mercury changes monotonically with temperature if mercury itself is used to make the thermometer?
-                        </Link>
-
-                    </li>
-                    <li className="dno js-hidden">
-                        <div className="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><Link to="/stackoverflow" className="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
-                            Is "may exist" and "may not exist" a negation that isn't a contradiction?
-                        </Link>
-
-                    </li>
+                                                                               
                 </ul>
             </div>
         </div>

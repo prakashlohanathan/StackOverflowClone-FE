@@ -62,7 +62,7 @@ function Question() {
         console.log(result)
         navigate ('/stackoverflow')
       } catch (err) {
-        //console.log(err)
+        console.log(err)
       }
     }
   }

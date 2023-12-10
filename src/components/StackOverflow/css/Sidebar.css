@@ -82,3 +82,42 @@
     color: #000;
     
   }
+
+  /* Sidebar.css */
+
+#left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50px; 
+  background-color: #f0f0f0; 
+  overflow-y: auto; 
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333; /* Set your preferred text color */
+}
+
+.sidebar-container {
+  width: 250px; /* Set the width of your sidebar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #f0f0f0; /* Add your preferred background color */
+  overflow-y: auto; /* Add a scrollbar if the content overflows */
+}

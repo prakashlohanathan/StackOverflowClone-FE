@@ -1,6 +1,4 @@
 import './App.css';
-import './stack.css';
-import './stackoverflow.css';
 import Header from './components/Header/Header';
 import { BrowserRouter as Router, Route, Routes, Navigate  } from 'react-router-dom';
 import StackOverflow from './components/StackOverflow';

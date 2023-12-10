@@ -125,4 +125,4 @@ function MainQuestion() {
     )
 }
 
-export default MainQuestion
+export default MainQuestion;
