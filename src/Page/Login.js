@@ -77,10 +77,11 @@ function Login() {
               <p>Password</p>
               <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" />
             </div>
-            <button onClick={handleSignIn} disabled={loading} style={{ marginTop: '10px' }}>
+           <div className="login-container">
+            <button className="button" onClick={handleSignIn} disabled={loading} style={{ marginTop: '10px' }}>
               {loading ? 'Logging in...' : 'Login'}
             </button>
-
+          </div>
             <p
               onClick={() => navigate('/register')}
               style={{
